@@ -98,6 +98,7 @@ function SignInPage() {
             Don't have an account? <Link to="/sign-up">Sign up</Link>
           </div>
 
+          {/*TODO: coming soon*/}
           {/*<div className="relative">
 						<div className="absolute inset-0 flex items-center">
 							<span className="w-full border-t" />

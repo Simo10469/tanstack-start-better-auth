@@ -50,6 +50,7 @@ function SignUpPage() {
     }
   }
 
+  // TODO: coming soon
   // function signUpWithGoogle() {
   //   window.location.href = "/api/auth/google?flow=signup";
   // }
@@ -113,6 +114,7 @@ function SignUpPage() {
             Already have an account? <Link to="/sign-in">Sign up</Link>
           </div>
 
+          {/*TODO: coming soon*/}
           {/*<div className="relative">
             <div className="absolute inset-0 flex items-center">
               <span className="w-full border-t" />
